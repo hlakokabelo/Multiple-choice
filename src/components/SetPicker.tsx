@@ -6,10 +6,9 @@ export default function SetPicker() {
 
   return (
     <div>
-      <h2 className="mb-1 text-lg font-medium">Choose a question set</h2>
-      <p className="mb-5 text-sm text-slate-400">
-        Pick a topic to start practising.
-      </p>
+      <h2 className="mb-1 text-lg font-medium">
+        Choose a question set for AI901
+      </h2>
 
       <div className="space-y-2.5">
         {sets.map((set) => (
